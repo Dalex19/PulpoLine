@@ -1,8 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Esto es un proyecto de [Next.js](https://nextjs.org/) creado con el template [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## PolpoLine Challange
 
-First, run the development server:
+Primero clona el proyecto, luego corre el servidor de desarrollo:
 
 ```bash
 npm run dev
@@ -14,23 +14,29 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador y ve los resultados.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Este proyecto se basa principalmente en maquetación web, versión móvil y desktop.  
+Tiene dos paginas principales:  
+- **/: src/app/page.tsx**  
+- **resume: src/app/resume/page.tsx**  
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Posee un directorio de componentes reutilizables, asi como un directorio de hooks, donde esta un **custom hook** que permite trabajar el responsive desing.
 
-## Learn More
+## Tecnologias
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js 14](https://nextjs.org/docs)
+- [Tailwind](https://tailwindcss.com/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Paquetes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Embla Carousel](https://www.embla-carousel.com/get-started/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [React Marquee](https://www.npmjs.com/package/react-fast-marquee)
 
-## Deploy on Vercel
+## Vistas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<image src="public/assets/Screen1.png" style="width: 350px;margin-bottom:10px">
+<image src="public/assets/Screen2.png" style="width: 350px;margin-bottom:10px">
+<image src="public/assets/Screen4.jpeg" style="width: 500px;margin-bottom:10px">
+<image src="public/assets/Screen3.jpeg" style="width: 500px;margin-bottom:10px">
