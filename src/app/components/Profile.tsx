@@ -11,7 +11,7 @@ export default function Profile() {
       <div className="shadow-lg border p-3 text-black flex flex-col gap-2 rounded-lg">
         <div className="flex justify-between items-center">
           <h3 className="font-bold text-md">Hila Amanda </h3>
-          <span className="text-md p-1 bg-yellow-400 font-semibold ">
+          <span className="text-sm p-1 bg-yellow-400 font-semibold ">
             Saldo 10,00 $
           </span>
         </div>
@@ -20,7 +20,7 @@ export default function Profile() {
           <button className="p-1 flex-1 border border-black font-semibold rounded-md">
             Retirar Premio
           </button>
-          <button className="p-1 flex-1 border font-semibold rounded-md text-white bg-blue-500">
+          <button className="p-1 flex-1 border font-semibold rounded-md text-white bg-blue-400">
             Recargar Saldo
           </button>
         </div>

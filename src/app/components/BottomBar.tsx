@@ -4,7 +4,7 @@ import { IoMdHelpCircleOutline } from "react-icons/io";
 
 export default function BottomBar() {
   return (
-    <div className=" w-full h-[45px] flex items-center text-gray-500 border-t bg-white">
+    <div className=" w-full h-[7vh] flex items-center text-gray-500 border-t bg-white">
       <ul className="flex-1 flex justify-around ">
         <li className="flex flex-col justify-center items-center">
           <CiHome size={20} /> <span className="text-xs">Home</span>

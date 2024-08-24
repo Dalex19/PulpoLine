@@ -10,7 +10,7 @@ interface NavbarProp {
 
 const NavbarMob: React.FC<NavbarProp> = (props) => {
   return (
-    <nav className="w-full p-2 h-[60px] bg-[#00A9E0] flex justify-between">
+    <nav className="w-full p-2 h-[9vh] bg-[#00A9E0] flex justify-between">
       <Link href="/" passHref className="flex items-center">
         <div className="flex gap-2 items-center">
           <FaArrowLeftLong />

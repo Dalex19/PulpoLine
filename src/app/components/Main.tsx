@@ -12,7 +12,7 @@ export default function Main() {
   const isMobile = useClientMediaQuery("(max-width: 600px)");
 
   return (
-    <div className="flex-1 md:flex-none flex flex-col w-full md:h-[95vh] p-2 md:justify-start md:px-24 md:pt-8 md:pb-10">
+    <div className="md:flex-none flex flex-col w-full h-[84vh]  md:h-[95vh] p-2 md:justify-start md:px-24 md:pt-8 md:pb-10">
       <h2 className="hidden md:flex text-2xl font-bold text-black">Gestión de Saldo</h2>
       <div className="flex justify-between md:justify-start md:w-[40%]">
         <button
@@ -36,7 +36,6 @@ export default function Main() {
           Retirar Premios
         </button>
       </div>
-
       <div className="w-full md:flex md:justify-between">
       {!changeView ? <RechargeBalance /> : <WithdrawPrize />}
       {!isMobile && <Profile />}
