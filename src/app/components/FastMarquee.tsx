@@ -1,4 +1,5 @@
-import React from "react";
+"use client"
+
 import MarqueeItem from "./MarqueeItem";
 
 import Marquee from "react-fast-marquee";
@@ -9,7 +10,7 @@ export default function FastMarquee() {
   return (
     <>
       {!isMobile && (
-        <div className="w-full px-2 pt-3">
+        <div className="w-full px-2 pt-3 bg-white">
           <Marquee>
             {Array.from({ length: 12 }).map((_, i) => (
               <MarqueeItem key={i} />
