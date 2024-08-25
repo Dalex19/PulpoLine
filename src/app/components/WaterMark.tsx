@@ -3,8 +3,8 @@ import Image from "next/image";
 
 import { useClientMediaQuery } from "../hooks/useClientMediaQuery";
 
-import Watermark1 from "@assets/watermark1.png";
-import Watermark2 from "@assets/watermark2.png";
+import Watermark1 from "../../../public/assets/watermark1.png";
+import Watermark2 from "../../../public/assets/watermark2.png";
 
 export default function WaterMark() {
   const isMobile = useClientMediaQuery("(max-width: 600px");
