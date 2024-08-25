@@ -7,8 +7,8 @@ import { IoPowerOutline } from "react-icons/io5";
 
 export default function Profile() {
   return (
-    <div className="w-[22%] h-full flex flex-col gap-2">
-      <div className="shadow-lg border p-3 text-black flex flex-col gap-2 rounded-lg">
+    <div className="w-[22%] h-full flex flex-col gap-2 z-20">
+      <div className="shadow-lg border p-3 text-black flex flex-col gap-2 rounded-lg bg-white">
         <div className="flex justify-between items-center">
           <h3 className="font-bold text-md">Hila Amanda </h3>
           <span className="text-sm p-1 bg-yellow-400 font-semibold ">
@@ -16,7 +16,7 @@ export default function Profile() {
           </span>
         </div>
 
-        <div className="flex justify-between gap-4">
+        <div className="flex justify-between gap-4 ">
           <button className="p-1 flex-1 border border-black font-semibold rounded-md">
             Retirar Premio
           </button>
@@ -26,7 +26,7 @@ export default function Profile() {
         </div>
       </div>
 
-      <div className="border shadow-lg rounded-lg flex-1 p-2 flex flex-col justify-between gap-3 pb-4">
+      <div className="border shadow-lg rounded-lg flex-1 p-2 flex flex-col justify-between gap-3 pb-4 bg-white">
         <ProfileItems title="Mi Cuenta" />
         <ProfileItems title="Historial" />
         <ProfileItems title="Ayuda y contacto" />
